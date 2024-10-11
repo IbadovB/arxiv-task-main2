@@ -1,0 +1,674 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+.header {
+    border: 1px solid #E1E1E1;
+    box-shadow: 1px 1px #E1E1E1;
+}
+
+.first-line {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 10px 30px;
+    background: #fff;
+}
+
+.city {
+    display: flex;
+    gap: 20px;
+}
+
+.city-text {
+    font-family: Golos;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 33.45px;
+    text-align: left;
+    color: #76767A;
+}
+
+.fa-angle-down {
+    color: #b3b3b3;
+    font-size: 13px;
+    padding-top: 13px;
+}
+
+.temperature {
+    display: flex;
+    gap: 10px;
+    padding-top: 2px;
+}
+
+.first-line .fa-cloud-showers-heavy {
+    color: #b3b3b3;
+    padding-top: 8px;
+}
+
+.temp-text {
+    font-family: Golos;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: left;
+    color: #666666;
+}
+
+.head-text {
+    font-family: Golos;
+    font-size: 18.67px;
+    font-weight: 1000;
+    line-height: 23.7px;
+    letter-spacing: 0.23630349338054657px;
+    text-align: center;
+    color: #000000;
+    padding-top: 5px;
+}
+
+.enter {
+    display: flex;
+    gap: 50px;
+}
+
+.fa-user {
+    padding-top: 8px;
+    color: #9C9C9C;
+    height: 17.84px;
+}
+
+.enter-text {
+    height: 34px;
+    font-family: Golos;
+    font-size: 15.61px;
+    font-weight: 500;
+    line-height: 33.45px;
+    text-align: left;
+    color: #999999;
+}
+
+.second-line {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid hsl(0, 0%, 0%, 0.1);
+    border-bottom: 1px solid hsl(0, 0%, 0%, 0.1);
+    background: #fff;
+}
+
+.fa-bars {
+    padding: 17px 35px 17px 32px;
+    color: #999999;
+    padding-right: 1px solid #e1e1e1;
+    border-right: 2px solid hsl(0, 0%, 0%, 0.1);
+}
+
+.second-line ul {
+    display: flex;
+    gap: 50px;
+    padding: 10px 0 5px 60px;
+    list-style: none;
+}
+
+.second-line li a {
+    font-family: Golos;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33.97px;
+    text-align: left;
+    color: #76767A;
+    text-decoration: none;
+}
+
+.second-line li .active {
+    color: #333333;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #1875F0;
+}
+
+.fa-magnifying-glass {
+    padding: 20px 40px 5px 45px;
+    color: #999999;
+    border-left: 2px solid hsl(0, 0%, 0%, 0.1);
+    height: 50px;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    margin: 20px 100px 0 700px;
+}
+
+.pages {
+    border-bottom: 1px solid #E1E1E1;
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    font-family: Golos;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: left;
+}
+
+.pages a {
+    text-decoration: none;
+}
+
+
+ul li .active2 {
+    text-decoration: underline;
+    color: #333333;
+}
+
+ul li .second {
+    color: #333333;
+
+}
+
+ul li .third {
+    color: #76767A;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.arxiv {
+    font-family: Golos;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #333333;
+    padding-top: 30px;
+}
+
+.tree,
+.clock,
+.video,
+.video-concratulate {
+    margin: 3px 3px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.all-photo {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.first-photo {
+    display: flex;
+    gap: 20px;
+}
+
+.photos {
+    border: 1px solid #99999921;
+    border-radius: 5px;
+    box-shadow: 1px 1px #99999921;
+    background: #fff;
+}
+
+.photos-text {
+    padding: 5px 15px 15px 149px;
+    font-family: Golos;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #333333;
+}
+
+.museum {
+    border: 1px solid #99999921;
+    border-radius: 5px;
+    box-shadow: 1px 1px #99999921;
+    background: #fff;
+}
+
+.museum-text {
+    padding: 5px 30px 15px 145px;
+    font-family: Golos;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.second-photo {
+    display: flex;
+    gap: 20px;
+
+}
+
+.videos {
+    border: 1px solid #99999921;
+    border-radius: 5px;
+    box-shadow: 1px 1px #99999921;
+    background: #fff;
+}
+
+.videos-text {
+    padding: 5px 15px 15px 160px;
+    font-family: Golos;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.congratulate {
+    border: 1px solid #99999921;
+    border-radius: 5px;
+    box-shadow: 1px 1px #99999921;
+    background: #fff;
+}
+
+.congratulate-text {
+    padding: 5px 15px 15px 149px;
+    font-family: Golos;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.add {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 0 40px 40px 340px;
+    border-bottom: 1px solid #E1E1E1;
+    margin: 50px 10px 0 0px;
+}
+
+.add-btn {
+    border: none;
+    border-radius: 6px;
+    background: #1875F0;
+}
+
+.add-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px 0 40px;
+    color: #FFFFFF;
+    font-family: Golos;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 46.45px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.arctic {
+    position: relative;
+    background: url("photo/mayak_bg@2x.png");
+   
+    top: 50px;
+    right: 10px;
+    border-radius: 5px;
+}
+
+
+
+.arctic-text {
+    position: absolute;
+    top: 25px;
+    left: 58px;
+    font-family: Golos;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: left;
+    color: #000000;
+}
+
+.mayak img {
+    position: absolute;
+    top: 75px;
+    left: 58px;
+}
+
+.visit {
+    position: absolute;
+    top: 200px;
+    left: 58px;
+    border-radius: 6px;
+    border: 1px solid #1875F0;
+}
+
+.visit-text {
+    padding: 1px 25px;
+    top: 1216px;
+    left: 25px;
+    font-family: Golos;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 46.45px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #1875F0;
+}
+
+.column {
+    margin: 25px 600px 40px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.weather {
+    background: #fff;
+    border: 1px solid #E1E1E1;
+    box-shadow: 1px 1px #E1E1E1;
+    border-radius: 5px;
+    line-height: 50.01px;
+}
+
+.weather-header {
+    padding: 0 10px 5px 10px;
+    font-family: Golos;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 50.01px;
+    text-align: left;
+    color: #000000;
+    border-bottom: 1px solid #E1E1E1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-text {
+    padding-top: 5px;
+}
+
+.points {
+    font-size: 30px;
+    color: #D8D8D8;
+}
+
+.weather-temp {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.weather-temp .fa-cloud-showers-heavy {
+    padding-top: 13px;
+    color: #1875F0;
+}
+
+.weather-texts1 {
+    padding: 5px 10px 0 10px;
+    font-family: Golos;
+    font-size: 13.25px;
+    font-weight: 500;
+    line-height: 21.21px;
+    text-align: center;
+}
+
+.weather-texts2 {
+    padding: 15px 60px 0 65px;
+    font-family: Golos;
+    font-size: 10.6px;
+    font-weight: 400;
+    line-height: 18.55px;
+    text-align: center;
+}
+
+.weather-texts2 span {
+    padding: 10px;
+}
+
+.proqnoz1 {
+    margin: 50px 40px 30px 40px;
+    border: 2px solid #e6f1fff5;
+    border-radius: 5px;
+}
+
+.proqnoz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 2px 5px 5px 43px; */
+    font-family: Golos;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 46.45px;
+    letter-spacing: 0.40194278955459595px;
+    text-align: left;
+    color: #1875F0;
+}
+
+.weather-footer {
+    padding: 20px 40px 0px 25px;
+    border-top: 1px solid #E1E1E1;
+}
+
+.otmena {
+    font-family: Golos;
+    font-size: 11.67px;
+    font-weight: 600;
+    line-height: 16.23px;
+    text-align: center;
+    color: #D86E28;
+}
+
+.class {
+    padding-left: 60px;
+}
+
+
+
+.map-header {
+    background: #fff;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+.status {
+    line-height: 50.01px;
+}
+
+
+.map-points {
+    font-size: 30px;
+    color: #D8D8D8;
+}
+
+.map-text {
+    background: url("https://www.shutterstock.com/shutterstock/photos/1871394598/display_1500/stock-vector--ity-map-paris-color-detailed-urban-road-plan-vector-illustration-1871394598.jpg");
+    border: 1px solid #E1E1E1;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 150px 0 0 60px;
+}
+
+
+.about {
+    border-radius: 6px;
+    background: #1875F0;
+    padding: 10px 25px;
+    margin: 0 60px 40px 20px;
+    border: none;
+}
+
+.about-text {
+    color: #fff;
+}
+
+.airways {
+    border: 1px solid #E1E1E1;
+    box-shadow: 1px 1px #E1E1E1;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.airways-header {
+    display: flex;
+    gap: 150px;
+    padding: 5px 10px 5px 10px;
+    border-bottom: 2px solid #E1E1E1;
+}
+
+.airways-text {
+    font-family: Golos;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: left;
+    color: #000000;
+}
+
+.airways-points {
+    font-size: 30px;
+    color: #D8D8D8;
+}
+
+.fly-first {
+    padding: 5px 15px 10px 10px;
+    border-bottom: 2px solid #E1E1E1;
+    display: flex;
+}
+
+
+.fly1-text1 {
+    padding: 0 5px;
+    font-family: Golos;
+    font-size: 15.17px;
+    font-weight: 500;
+    line-height: 53.5px;
+    text-align: left;
+}
+
+.fly1-text2 {
+    margin: 0 5px;
+    font-family: Golos;
+    font-size: 11.23px;
+    font-weight: 400;
+    line-height: 19.26px;
+    text-align: left;
+}
+
+.fly1-icon {
+    padding: 35px 35px 0 20px;
+    color: green;
+}
+
+
+.fly2-text1 {
+    padding: 0 5px;
+    font-family: Golos;
+    font-size: 15.17px;
+    font-weight: 500;
+    line-height: 53.5px;
+    padding-left: 35px;
+}
+
+.fly2-text2 {
+    font-family: Golos;
+    font-size: 11.23px;
+    font-weight: 400;
+    line-height: 19.26px;
+    text-align: left;
+}
+
+.fly-second {
+    padding: 10px 10px 20px 15px;
+    border-bottom: 2px solid #E1E1E1;
+    display: flex;
+}
+
+.fly3-text1 {
+    font-family: Golos;
+    font-size: 15.17px;
+    font-weight: 500;
+    line-height: 53.5px;
+    text-align: left;
+    padding-right: 35px;
+}
+
+.fly3-text2 {
+    font-family: Golos;
+    font-size: 11.23px;
+    font-weight: 400;
+    line-height: 19.26px;
+    text-align: left;
+}
+
+.fly3-icon {
+    padding: 30px 0 0 20px;
+}
+
+.fly4 {
+    padding: 0 10px 0 50px;
+}
+
+.fly4-text1 {
+    font-family: Golos;
+    font-size: 15.17px;
+    font-weight: 500;
+    line-height: 53.5px;
+    padding-left: 17px;
+}
+
+.fly4-text2 {
+    font-family: Golos;
+    font-size: 11.23px;
+    font-weight: 400;
+    line-height: 19.26px;
+    text-align: left;
+}
+
+.regis {
+    padding: 25px 60px;
+}
+
+.page-footer {
+    margin-top: 100px;
+    background: #fff;
+    border: 1px solid #E1E1E1;
+    display: flex;
+    padding: 30px 0 30px 700px;
+}
+
+.portal {
+    padding-right: 210px;
+    font-family: Golos;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 21.39px;
+    letter-spacing: 0.19638599455356598px;
+    text-align: left;
+}
+
+.page-footer ul {
+    display: flex;
+    gap: 58px;
+    list-style: none;
+}
+
+.page-footer li {
+    color: #76767A;
+}
+
+.page-footer .active {
+    color: #000000;
+}
